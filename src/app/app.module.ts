@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {AuthModule} from './auth/auth.module';
 import {DashboardModule} from './dashboard/dashboard.module';
+import {TableModule} from './table/table.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import {DashboardModule} from './dashboard/dashboard.module';
   imports: [
     BrowserModule,
     AuthModule,
-    DashboardModule
+    DashboardModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

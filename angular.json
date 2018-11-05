@@ -28,7 +28,12 @@
               "src/assets/css/metisMenu.min.css",
               "src/assets/css/sb-admin-2.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/metisMenu.min.js",
+              "src/assets/js/sb-admin-2.min.js"
+            ]
           },
           "configurations": {
             "production": {

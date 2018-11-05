@@ -1,10 +1,12 @@
 import {NgModule} from '@angular/core';
-import {TableComponent} from './table.component';
 import {CommonModule} from '@angular/common';
+
+import {TableComponent} from './table.component';
+import {MenuModule} from '../menu/menu.module';
 
 @NgModule({
   declarations: [TableComponent],
-  imports: [CommonModule],
+  imports: [CommonModule, MenuModule],
   exports: [TableComponent]
 })
 export class TableModule { }
