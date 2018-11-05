@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {LoginComponent} from './login/login.component';
+import {LoginComponent} from './login.component';
 import {CommonModule} from '@angular/common';
 
 @NgModule({
@@ -7,4 +7,4 @@ import {CommonModule} from '@angular/common';
   imports: [CommonModule],
   exports: [LoginComponent]
 })
-export class AuthModule { }
+export class LoginModule { }

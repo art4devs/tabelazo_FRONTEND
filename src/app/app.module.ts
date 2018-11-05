@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {AuthModule} from './auth/auth.module';
+import {LoginModule} from './auth/login/login.module';
 import {DashboardModule} from './dashboard/dashboard.module';
 import {TableViewModule} from './table-view/table-view.module';
 
@@ -12,7 +12,7 @@ import {TableViewModule} from './table-view/table-view.module';
   ],
   imports: [
     BrowserModule,
-    AuthModule,
+    LoginModule,
     DashboardModule,
     TableViewModule
   ],

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RoundComponent implements OnInit {
 
+  namePanel: string = 'Jogos da rodada 33';
+
   constructor() { }
 
   ngOnInit() {

@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class TableComponent implements OnInit {
 
-  refreshPanel: boolean = false;
+  refreshPanel: boolean = true;
   namePanel: string = 'Situação até a rodada 33';
 
   constructor() { }
