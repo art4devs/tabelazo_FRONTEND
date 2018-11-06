@@ -3,8 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {LoginModule} from './auth/login/login.module';
-import {DashboardModule} from './dashboard/dashboard.module';
+import {DashboardViewModule} from './dashboard-view/dashboard-view.module';
 import {TableViewModule} from './table-view/table-view.module';
+import {AppRoutingModule} from './app.routing.module';
+import {HomeViewModule} from './home-view/home-view.module';
 
 @NgModule({
   declarations: [
@@ -12,8 +14,10 @@ import {TableViewModule} from './table-view/table-view.module';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
+    HomeViewModule,
     LoginModule,
-    DashboardModule,
+    DashboardViewModule,
     TableViewModule
   ],
   providers: [],
