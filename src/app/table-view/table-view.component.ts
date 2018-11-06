@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableViewComponent implements OnInit {
 
+  viewTitle: string = 'Brasileirão 2018';
+
   constructor() { }
 
   ngOnInit() {
